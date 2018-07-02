@@ -4,10 +4,10 @@ dataSet[dataSetVersion] = {};
 dataSet[dataSetVersion].characterData = [
   {
     name: "Bren Ten",
-    img: "1.png",
+    img: "N0UY8qV.png",
   },
   {
     name: "FNP-9",
-    img: "2.png",
+    img: "43JLCcX.png",
   }
 ];
