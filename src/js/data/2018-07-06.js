@@ -8,12 +8,12 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain series.",
     checked: false,
     sub: [
-      { name: "Handgun", key: "HG" },
-      { name: "Assault Rifle", key: "AR" },
-      { name: "Shotgun", key: "SG" },
-      { name: "Machine Gun", key: "MG" },
-      { name: "Sniper Rifle", key: "SR" },
-      { name: "Sub Machine Gun", key: "SMG" },
+      { name: "Handgun", tooltip: "Handgun", key: "HG" },
+      { name: "Assault Rifle", tooltip: "Assault Rifle", key: "AR" },
+      { name: "Shotgun", tooltip: "Shotgun", key: "SG" },
+      { name: "Machine Gun", tooltip: "Machine Gun", key: "MG" },
+      { name: "Sniper Rifle", tooltip: "Sniper Rifle", key: "SR" },
+      { name: "Sub Machine Gun", tooltip: "Sub Machine Gun", key: "SMG" },
     ]
 ];
 
@@ -28,15 +28,15 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "FNP-9",
     img: "43JLCcX.png",
-	opts: {
-		series: [ "HG" ]
-	}
+    opts: {
+      series: [ "HG" ]
+    }
   },
   {
-	name: "M1911",
-	img: "OP5ZCPT.png",
-	opts: {
-		series: [ "HG" ]
-	}
+    name: "M1911",
+    img: "OP5ZCPT.png",
+    opts: {
+      series: [ "HG" ]
+    }
   }
 ];
