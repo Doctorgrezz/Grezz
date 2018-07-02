@@ -8,6 +8,6 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "FNP-9",
-    img: "tJnkSzK.png",
+    img: "2.png",
   }
 ];
